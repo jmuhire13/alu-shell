@@ -30,5 +30,13 @@ then
                 echo "Usage: manage_my_process {start|stop|restart}"
         fi
 else
-        echo "Usage: manage_my_process {start|stop|restart}"
+        echo "Usage: manage_my_process {start|stop|restart}" 
 fi
+
+#!/usr/bin/env bash
+#manage 
+while [[ 1 -eq 1 ]]
+do
+       echo "I am alive!" >> /tmp/my_process
+       sleep 2
+done
